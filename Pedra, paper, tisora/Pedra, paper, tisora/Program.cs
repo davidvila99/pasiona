@@ -14,10 +14,18 @@ namespace Pedra__paper__tisora
             char player1;
             char player2;
 
-            methods choose_values = new methods();
+            methods methods = new methods();
 
-            player1 = choose_values.ask_for_values();
-            player2 = choose_values.ask_for_values();
+            methods.print_characteristics();
+
+            for (int i = 0; i < 10; i++) {
+                System.Threading.Thread.Sleep(1200);
+                Console.WriteLine("\nPlayer 1, please choose...");
+                player1 = methods.ask_for_values();
+                System.Threading.Thread.Sleep(1200);
+                Console.WriteLine("\nPlayer 2, please choose...");
+                player2 = methods.ask_for_values();
+            }
 
         }
     }

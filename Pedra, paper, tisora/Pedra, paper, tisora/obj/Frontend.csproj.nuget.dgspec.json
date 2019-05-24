@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\Pedra, paper, tisora\\Pedra, paper, tisora.csproj": {}
+    "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\Pedra, paper, tisora\\Frontend.csproj": {}
   },
   "projects": {
     "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\ClassLibrary1\\Backend.csproj": {
@@ -56,12 +56,12 @@
         }
       }
     },
-    "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\Pedra, paper, tisora\\Pedra, paper, tisora.csproj": {
+    "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\Pedra, paper, tisora\\Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\Pedra, paper, tisora\\Pedra, paper, tisora.csproj",
-        "projectName": "Pedra, paper, tisora",
-        "projectPath": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\Pedra, paper, tisora\\Pedra, paper, tisora.csproj",
+        "projectUniqueName": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\Pedra, paper, tisora\\Frontend.csproj",
+        "projectName": "Frontend",
+        "projectPath": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\Pedra, paper, tisora\\Frontend.csproj",
         "packagesPath": "C:\\Users\\dgonzalez\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\Pedra, paper, tisora\\obj\\",
         "projectStyle": "PackageReference",

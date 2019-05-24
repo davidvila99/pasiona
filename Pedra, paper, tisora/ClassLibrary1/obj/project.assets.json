@@ -694,9 +694,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\ClassLibrary1\\ClassLibrary1.csproj",
-      "projectName": "ClassLibrary1",
-      "projectPath": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\ClassLibrary1\\ClassLibrary1.csproj",
+      "projectUniqueName": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\ClassLibrary1\\Backend.csproj",
+      "projectName": "Backend",
+      "projectPath": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\ClassLibrary1\\Backend.csproj",
       "packagesPath": "C:\\Users\\dgonzalez\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\ClassLibrary1\\obj\\",
       "projectStyle": "PackageReference",

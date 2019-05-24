@@ -1,0 +1,14 @@
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\obj\Debug\netcoreapp2.1\Pedra, paper, tisora.csprojAssemblyReference.cache
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\obj\Debug\netcoreapp2.1\Pedra, paper, tisora.csproj.CoreCompileInputs.cache
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\obj\Debug\netcoreapp2.1\Pedra, paper, tisora.AssemblyInfoInputs.cache
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\obj\Debug\netcoreapp2.1\Pedra, paper, tisora.AssemblyInfo.cs
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\bin\Debug\netcoreapp2.1\Pedra, paper, tisora.deps.json
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\bin\Debug\netcoreapp2.1\Pedra, paper, tisora.runtimeconfig.json
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\bin\Debug\netcoreapp2.1\Pedra, paper, tisora.runtimeconfig.dev.json
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\bin\Debug\netcoreapp2.1\Pedra, paper, tisora.dll
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\bin\Debug\netcoreapp2.1\Pedra, paper, tisora.pdb
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\bin\Debug\netcoreapp2.1\ClassLibrary1.dll
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\bin\Debug\netcoreapp2.1\ClassLibrary1.pdb
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\obj\Debug\netcoreapp2.1\Pedra, paper, tisora.csproj.CopyComplete
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\obj\Debug\netcoreapp2.1\Pedra, paper, tisora.dll
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\obj\Debug\netcoreapp2.1\Pedra, paper, tisora.pdb

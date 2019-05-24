@@ -1,0 +1,14 @@
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\bin\Debug\netcoreapp2.1\Frontend.deps.json
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\bin\Debug\netcoreapp2.1\Frontend.runtimeconfig.json
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\bin\Debug\netcoreapp2.1\Frontend.runtimeconfig.dev.json
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\bin\Debug\netcoreapp2.1\Frontend.dll
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\bin\Debug\netcoreapp2.1\Frontend.pdb
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\bin\Debug\netcoreapp2.1\Backend.dll
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\bin\Debug\netcoreapp2.1\Backend.pdb
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\obj\Debug\netcoreapp2.1\Frontend.csprojAssemblyReference.cache
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\obj\Debug\netcoreapp2.1\Frontend.csproj.CoreCompileInputs.cache
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\obj\Debug\netcoreapp2.1\Frontend.AssemblyInfoInputs.cache
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\obj\Debug\netcoreapp2.1\Frontend.AssemblyInfo.cs
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\obj\Debug\netcoreapp2.1\Frontend.csproj.CopyComplete
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\obj\Debug\netcoreapp2.1\Frontend.dll
+C:\Users\dgonzalez\Documents\Pasiona_GitHub_Local\pasiona\Pedra, paper, tisora\Pedra, paper, tisora\obj\Debug\netcoreapp2.1\Frontend.pdb

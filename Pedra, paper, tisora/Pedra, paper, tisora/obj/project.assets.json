@@ -208,14 +208,14 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "ClassLibrary1/1.0.0": {
+      "Backend/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "compile": {
-          "bin/placeholder/ClassLibrary1.dll": {}
+          "bin/placeholder/Backend.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ClassLibrary1.dll": {}
+          "bin/placeholder/Backend.dll": {}
         }
       }
     }
@@ -691,15 +691,15 @@
         "netstandard.library.nuspec"
       ]
     },
-    "ClassLibrary1/1.0.0": {
+    "Backend/1.0.0": {
       "type": "project",
-      "path": "../ClassLibrary1/ClassLibrary1.csproj",
-      "msbuildProject": "../ClassLibrary1/ClassLibrary1.csproj"
+      "path": "../ClassLibrary1/Backend.csproj",
+      "msbuildProject": "../ClassLibrary1/Backend.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "ClassLibrary1 >= 1.0.0",
+      "Backend >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -710,9 +710,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\Pedra, paper, tisora\\Pedra, paper, tisora.csproj",
-      "projectName": "Pedra, paper, tisora",
-      "projectPath": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\Pedra, paper, tisora\\Pedra, paper, tisora.csproj",
+      "projectUniqueName": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\Pedra, paper, tisora\\Frontend.csproj",
+      "projectName": "Frontend",
+      "projectPath": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\Pedra, paper, tisora\\Frontend.csproj",
       "packagesPath": "C:\\Users\\dgonzalez\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\Pedra, paper, tisora\\obj\\",
       "projectStyle": "PackageReference",
@@ -733,8 +733,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\ClassLibrary1\\ClassLibrary1.csproj": {
-              "projectPath": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\ClassLibrary1\\ClassLibrary1.csproj"
+            "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\ClassLibrary1\\Backend.csproj": {
+              "projectPath": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\ClassLibrary1\\Backend.csproj"
             }
           }
         }
