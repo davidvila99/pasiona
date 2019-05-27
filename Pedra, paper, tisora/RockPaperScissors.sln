@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Frontend", "Pedra, paper, t
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend", "ClassLibrary1\Backend.csproj", "{8C78E2F4-D2E6-40C8-991D-8D5BD19490C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constants", "Constants\Constants.csproj", "{6CBAB369-DAFF-4991-9497-6B06A2D8EDE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8C78E2F4-D2E6-40C8-991D-8D5BD19490C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C78E2F4-D2E6-40C8-991D-8D5BD19490C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C78E2F4-D2E6-40C8-991D-8D5BD19490C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CBAB369-DAFF-4991-9497-6B06A2D8EDE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CBAB369-DAFF-4991-9497-6B06A2D8EDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CBAB369-DAFF-4991-9497-6B06A2D8EDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CBAB369-DAFF-4991-9497-6B06A2D8EDE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

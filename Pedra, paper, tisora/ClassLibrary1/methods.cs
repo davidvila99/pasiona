@@ -1,84 +1,87 @@
 ﻿using System;
+using StringsLibrary;
 
-namespace stone_paper_scissors
-{
+namespace RockPaperScissors {
+    
     public class methods {
         public const char Rock = 'R';
         public const char Paper = 'P';
         public const char Scissors = 'S';
-        public const string Game_description = "--------2 players game--------\n" +
-        "\n -Stone wins scissors\n -Scissors wins paper\n -Paper wins stone\n";
-        public const string Select_value = "Choose R (Rock), S (Scissors) or P (Paper)";
-        public const string Error_value = "\nYou entered an incorrect value, please try again\n";
-        public const string Draw = "DRAW";
-        public const string Player1_wins = "Player1_wins";
-        public const string Player2_wins = "Player2_wins";
+
+        private static cStringsLibrary StringsLibrary = new cStringsLibrary();
 
 
         public void print_characteristics() {
-            Console.WriteLine(Game_description);
+            Console.WriteLine(StringsLibrary.Game_description);
         }
         public char ask_for_values(){
             char key;
 
-            Console.WriteLine(Select_value);
+            Console.WriteLine(StringsLibrary.Select_value);
             key = Char.ToUpper(Console.ReadKey().KeyChar);
 
             while (key != Rock && key != Paper && key != Scissors) {
-                Console.WriteLine(Error_value);
+                Console.WriteLine(StringsLibrary.Error_value);
                 key = Char.ToUpper(Console.ReadKey().KeyChar);
             }
-
             return key;
         }
 
+        int CountPlayer1 = 0;
+        int CountPlayer2 = 0;
         public void game(char player1, char player2) {
+
             switch (player1) {
                 case Rock:
                     switch (player2) {
-                        case Rock: Console.WriteLine(Draw);
+                        case Rock:
+                            Console.WriteLine(StringsLibrary.Draw);
                             break;
-                        case Paper: Console.WriteLine(Player2_wins);
+                        case Paper:
+                            Console.WriteLine(StringsLibrary.Player2_wins);
+                            CountPlayer2++;
                             break;
-                        case Scissors: Console.WriteLine(Player1_wins);
+                        case Scissors:
+                            Console.WriteLine(StringsLibrary.Player1_wins);
+                            CountPlayer1++;
                             break;
                     }
                     break;
                 case Paper:
                     switch (player2) {
                         case Rock:
-                            Console.WriteLine(Player1_wins);
+                            Console.WriteLine(StringsLibrary.Player1_wins);
+                            CountPlayer1++;
                             break;
                         case Paper:
-                            Console.WriteLine(Draw);
+                            Console.WriteLine(StringsLibrary.Draw);
                             break;
                         case Scissors:
-                            Console.WriteLine(Player2_wins);
+                            Console.WriteLine(StringsLibrary.Player2_wins);
+                            CountPlayer2++;
                             break;
                     }
                     break;
                 case Scissors:
                     switch (player2) {
                         case Rock:
-                            Console.WriteLine(Player2_wins);
+                            Console.WriteLine(StringsLibrary.Player2_wins);
+                            CountPlayer2++;
                             break;
                         case Paper:
-                            Console.WriteLine(Player1_wins);
+                            Console.WriteLine(StringsLibrary.Player1_wins);
+                            CountPlayer1++;
                             break;
                         case Scissors:
-                            Console.WriteLine(Draw);
+                            Console.WriteLine(StringsLibrary.Draw);
                             break;
                     }
                     break;
             }
-        }
-        public void score() {
-        int score_player1;
-        int score_player2;
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("\nPlayer1: " + CountPlayer1 + " Player2: " + CountPlayer2);
+            Console.ForegroundColor = ConsoleColor.White;
 
-
-
-        Console.WriteLine();
         }
     }
 }

@@ -207,19 +207,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "Constants/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "Microsoft.NETCore.App": "2.1.0"
-        },
-        "compile": {
-          "bin/placeholder/Constants.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Constants.dll": {}
-        }
       }
     }
   },
@@ -693,16 +680,10 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "Constants/1.0.0": {
-      "type": "project",
-      "path": "../Constants/Constants.csproj",
-      "msbuildProject": "../Constants/Constants.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Constants >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -713,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\ClassLibrary1\\Backend.csproj",
-      "projectName": "Backend",
-      "projectPath": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\ClassLibrary1\\Backend.csproj",
+      "projectUniqueName": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\Constants\\Constants.csproj",
+      "projectName": "Constants",
+      "projectPath": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\Constants\\Constants.csproj",
       "packagesPath": "C:\\Users\\dgonzalez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\ClassLibrary1\\obj\\",
+      "outputPath": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\Constants\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -735,11 +716,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {
-            "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\Constants\\Constants.csproj": {
-              "projectPath": "C:\\Users\\dgonzalez\\Documents\\Pasiona_GitHub_Local\\pasiona\\Pedra, paper, tisora\\Constants\\Constants.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -752,7 +729,6 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary1\Backend.csproj" />
+    <ProjectReference Include="..\Constants\Constants.csproj" />
   </ItemGroup>
 
 </Project>
