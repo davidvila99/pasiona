@@ -8,20 +8,20 @@ namespace RockPaperScissors {
         public const char Paper = 'P';
         public const char Scissors = 'S';
 
-        private static cStringsLibrary StringsLibrary = new cStringsLibrary();
+        private static cStringsLibrary cStringsLibrary = new cStringsLibrary();
 
 
         public void print_characteristics() {
-            Console.WriteLine(StringsLibrary.Game_description);
+            Console.WriteLine(cStringsLibrary.Game_description);
         }
         public char ask_for_values(){
             char key;
 
-            Console.WriteLine(StringsLibrary.Select_value);
+            Console.WriteLine(cStringsLibrary.Select_value);
             key = Char.ToUpper(Console.ReadKey().KeyChar);
 
             while (key != Rock && key != Paper && key != Scissors) {
-                Console.WriteLine(StringsLibrary.Error_value);
+                Console.WriteLine(cStringsLibrary.Error_value);
                 key = Char.ToUpper(Console.ReadKey().KeyChar);
             }
             return key;
@@ -35,14 +35,14 @@ namespace RockPaperScissors {
                 case Rock:
                     switch (player2) {
                         case Rock:
-                            Console.WriteLine(StringsLibrary.Draw);
+                            Console.WriteLine(cStringsLibrary.Draw);
                             break;
                         case Paper:
-                            Console.WriteLine(StringsLibrary.Player2_wins);
+                            Console.WriteLine(cStringsLibrary.Player2_wins);
                             CountPlayer2++;
                             break;
                         case Scissors:
-                            Console.WriteLine(StringsLibrary.Player1_wins);
+                            Console.WriteLine(cStringsLibrary.Player1_wins);
                             CountPlayer1++;
                             break;
                     }
@@ -50,14 +50,14 @@ namespace RockPaperScissors {
                 case Paper:
                     switch (player2) {
                         case Rock:
-                            Console.WriteLine(StringsLibrary.Player1_wins);
+                            Console.WriteLine(cStringsLibrary.Player1_wins);
                             CountPlayer1++;
                             break;
                         case Paper:
-                            Console.WriteLine(StringsLibrary.Draw);
+                            Console.WriteLine(cStringsLibrary.Draw);
                             break;
                         case Scissors:
-                            Console.WriteLine(StringsLibrary.Player2_wins);
+                            Console.WriteLine(cStringsLibrary.Player2_wins);
                             CountPlayer2++;
                             break;
                     }
@@ -65,15 +65,15 @@ namespace RockPaperScissors {
                 case Scissors:
                     switch (player2) {
                         case Rock:
-                            Console.WriteLine(StringsLibrary.Player2_wins);
+                            Console.WriteLine(cStringsLibrary.Player2_wins);
                             CountPlayer2++;
                             break;
                         case Paper:
-                            Console.WriteLine(StringsLibrary.Player1_wins);
+                            Console.WriteLine(cStringsLibrary.Player1_wins);
                             CountPlayer1++;
                             break;
                         case Scissors:
-                            Console.WriteLine(StringsLibrary.Draw);
+                            Console.WriteLine(cStringsLibrary.Draw);
                             break;
                     }
                     break;
@@ -81,7 +81,6 @@ namespace RockPaperScissors {
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("\nPlayer1: " + CountPlayer1 + " Player2: " + CountPlayer2);
             Console.ForegroundColor = ConsoleColor.White;
-
         }
     }
 }

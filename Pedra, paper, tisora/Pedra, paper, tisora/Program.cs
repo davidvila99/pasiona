@@ -1,122 +1,33 @@
 ﻿using System;
 using RockPaperScissors;
 using StringsLibrary;
+using Body;
+using Backend;
+using Frontend;
+
 
 namespace RockPaperScissors
 {
     class Program
     {
-        static void Main(string[] args)
+        public static Player player1 = new Player();
+        public static Player player2 = new Player();
+        static void mMain(string[] args)
         {
             mPlay();
         }
         private static void mPlay() {
-            char player1;
-            char player2;
 
-            methods methods = new methods();
+            player1.pName = Console.ReadLine();
+            player2.pName = Console.ReadLine();
 
-            methods.print_characteristics();
-          
-            //Round 1
-            Console.WriteLine(cStringsLibrary.CurrentRound + "1 ----------");
-            Console.WriteLine("\nPlayer 1, please choose...");
-            player1 = methods.ask_for_values();
-            Console.WriteLine("\nPlayer 2, please choose...");
-            player2 = methods.ask_for_values();
-            methods.game(player1, player2);
-            Console.WriteLine();
+            cFront.print_characteristics();
+            player1.pHand = cFront.ask_for_values();
+            player2.pHand = cFront.ask_for_values();
 
-            //Round 2
-            Console.WriteLine(StringsLibrary.CurrentRound + "2 ----------");
-            Console.WriteLine("\nPlayer 1, please choose...");
-            player1 = methods.ask_for_values();
-            Console.WriteLine("\nPlayer 2, please choose...");
-            player2 = methods.ask_for_values();
-            methods.game(player1, player2);
-            Console.WriteLine();
 
-            //Round 3
-            Console.WriteLine(StringsLibrary.CurrentRound + "3 ----------");
-            Console.WriteLine("\nPlayer 1, please choose...");
-            player1 = methods.ask_for_values();
-            Console.WriteLine("\nPlayer 2, please choose...");
-            player2 = methods.ask_for_values();
-            methods.game(player1, player2);
-            Console.WriteLine();
-
-            //Round 4
-            Console.WriteLine(StringsLibrary.CurrentRound + "4 ----------");
-            Console.WriteLine("\nPlayer 1, please choose...");
-            player1 = methods.ask_for_values();
-            Console.WriteLine("\nPlayer 2, please choose...");
-            player2 = methods.ask_for_values();
-            methods.game(player1, player2);
-            Console.WriteLine();
-
-            //Round 5
-            Console.WriteLine(StringsLibrary.CurrentRound + "5 ----------");
-            Console.WriteLine("\nPlayer 1, please choose...");
-            player1 = methods.ask_for_values();
-            Console.WriteLine("\nPlayer 2, please choose...");
-            player2 = methods.ask_for_values();
-            methods.game(player1, player2);
-            Console.WriteLine();
-
-            //Round 6
-            Console.WriteLine(StringsLibrary.CurrentRound + "6 ----------");
-            Console.WriteLine("\nPlayer 1, please choose...");
-            player1 = methods.ask_for_values();
-            Console.WriteLine("\nPlayer 2, please choose...");
-            player2 = methods.ask_for_values();
-            methods.game(player1, player2);
-            Console.WriteLine();
-
-            //Round 7
-            Console.WriteLine(StringsLibrary.CurrentRound + "7 ----------");
-            Console.WriteLine("\nPlayer 1, please choose...");
-            player1 = methods.ask_for_values();
-            Console.WriteLine("\nPlayer 2, please choose...");
-            player2 = methods.ask_for_values();
-            methods.game(player1, player2);
-            Console.WriteLine();
-
-            //Round8
-            Console.WriteLine(StringsLibrary.CurrentRound + "8 ----------");
-            Console.WriteLine("\nPlayer 1, please choose...");
-            player1 = methods.ask_for_values();
-            Console.WriteLine("\nPlayer 2, please choose...");
-            player2 = methods.ask_for_values();
-            methods.game(player1, player2);
-            Console.WriteLine();
-
-            //Round 9
-            Console.WriteLine(StringsLibrary.CurrentRound + "9 ----------");
-            Console.WriteLine("\nPlayer 1, please choose...");
-            player1 = methods.ask_for_values();
-            Console.WriteLine("\nPlayer 2, please choose...");
-            player2 = methods.ask_for_values();
-            methods.game(player1, player2);
-            Console.WriteLine();
-
-            //Round 10
-            Console.WriteLine(StringsLibrary.CurrentRound + "10 ----------");
-            Console.WriteLine("\nPlayer 1, please choose...");
-            player1 = methods.ask_for_values();
-            Console.WriteLine("\nPlayer 2, please choose...");
-            player2 = methods.ask_for_values();
-            methods.game(player1, player2);
-            Console.WriteLine();
-
-            /*for (int i = 0; i < 10; i++) {
-                Console.WriteLine(StringsLibrary.CurrentRound + (i+1) + " ----------");
-                Console.WriteLine("\nPlayer 1, please choose...");
-                player1 = methods.ask_for_values();
-                Console.WriteLine("\nPlayer 2, please choose...");
-                player2 = methods.ask_for_values();
-                methods.game(player1, player2);
-                Console.WriteLine();
-            }*///Simplifying the code above
+            cBody.game(player1.pHand,player2.pHand);
+            
         }
     }
 }
