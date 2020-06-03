@@ -1,0 +1,2 @@
+C:\Users\David\Desktop\Pasiona Stuff\Node\MinionCoin\MinionCoin\obj\Debug\MinionCoin.njsprojAssemblyReference.cache
+C:\Users\David\Desktop\Pasiona Stuff\Node\MinionCoin\MinionCoin\bin\Microsoft.NodejsTools.WebRole.dll

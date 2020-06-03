@@ -1,0 +1,2 @@
+C:\Users\David\Desktop\Pasiona Stuff\Node\Chat\Chat\obj\Debug\Chat.njsprojAssemblyReference.cache
+C:\Users\David\Desktop\Pasiona Stuff\Node\Chat\Chat\bin\Microsoft.NodejsTools.WebRole.dll

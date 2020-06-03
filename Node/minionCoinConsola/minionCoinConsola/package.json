@@ -1,0 +1,13 @@
+{
+  "name": "minion-coin-consola",
+  "version": "0.0.0",
+  "description": "minionCoinConsola",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "first-node-aplication",
+  "version": "0.0.0",
+  "description": "FirstNodeAplication",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "fs": "0.0.1-security"
+  }
+}

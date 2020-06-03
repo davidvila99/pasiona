@@ -1,0 +1,2 @@
+C:\Users\David\Desktop\Pasiona Stuff\Node\ExpressMVC\ExpressMVC\obj\Debug\ExpressMVC.njsprojAssemblyReference.cache
+C:\Users\David\Desktop\Pasiona Stuff\Node\ExpressMVC\ExpressMVC\bin\Microsoft.NodejsTools.WebRole.dll
