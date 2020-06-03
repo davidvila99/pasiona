@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="scripts.js"></script>
+
+    </head>
+    <body>
+        <div class="column left" id="MainDiv">
+            <h1>Pasiona Development S.L.</h1>            
+            <h4>1 CodeLine = 0,10$</h4>
+            <button onclick="clickBtn()"><img class="image" src="images/codeicon.jpg"></button>
+            <h3>Code Lines: 0.0</h3>
+            <h3>Total Code Lines: 0.0</h3>
+            <div class="column left">
+                <button onclick="Exchange()">Exchange Code Lines</button>
+            </div>
+            <div class="column">
+                <h3>Money: 0</h3>
+            </div>         
+        </div>
+        
+        
+        <div class ="buttons">
+                <button onclick="MinionBtn()" class="column right upgradebutton"><h2 id="MinionProduction">Minion / Price: 10$</h2></button>
+                <div class="RightProperties">
+                    <div class="TextProperties">
+                        <h2>0</h2>
+                    </div>
+                </div>
+                <button onclick="OfficeBtn()" class="column right upgradebutton"><h2>Office (50 Minions/Office) / Price: 1000$</h2></button>
+                <div class="RightProperties">
+                    <div class="TextProperties">
+                        <h2>0</h2>
+                    </div>
+                </div>                
+                <button onclick="HardDriveBtn()" class="column right upgradebutton"><h2>HD (10000 CodeLines/HD) / Price: 100$</h2></button>
+                <div class="RightProperties">
+                    <div class="TextProperties">
+                        <h2>0</h2>
+                    </div>
+                </div>
+                <button onclick="FormadorBtn()" class="column right upgradebutton"><h2>Formador (Max: 1) / Price: 1000$ / MinionProduction x10</h2></button>
+                <div class="RightProperties">
+                    <div class="TextProperties">
+                        <h2 id="Formador">0</h2>
+                    </div>
+                </div>
+                <button onclick="CoffeMachineBtn()" class="column right upgradebutton"><h2>Coffe Machine (Max: 1) / Price: 500$ / MinionProduction x2</h2></button>
+                <div class="RightProperties">
+                    <div class="TextProperties">
+                        <h2 id ="CoffeMachine">0</h2>
+                    </div>
+                </div>
+                <button onclick="IncentiveBtn()" class="column right upgradebutton"><h2 id="IncentiveInfo">Incentive / Price: 200$/Minion / MinionProduction x2</h2></button>
+                <div class="RightProperties">
+                    <div class="TextProperties">
+                        <h2 id ="Incentive">0</h2>
+                    </div>
+                </div>
+                <button onclick="SCRUMBtn()" class="column right upgradebutton"><h2>SCRUM / Price: 10000$ / MinionProduction x4</h2></button>
+                <div class="RightProperties">
+                    <div class="TextProperties">
+                        <h2 id ="SCRUMB">0</h2>
+                    </div>
+                </div>
+                <button onclick="AmazonCTOBtn()" class="column right upgradebutton"><h2>Amazon CTO / Price: 100000$ / MinionProduction x50</h2></button>
+                <div class="RightProperties">
+                    <div class="TextProperties">
+                        <h2 id ="Amazon">0</h2>
+                    </div>
+                </div>
+        </div>
+
+    </body>
+</html>

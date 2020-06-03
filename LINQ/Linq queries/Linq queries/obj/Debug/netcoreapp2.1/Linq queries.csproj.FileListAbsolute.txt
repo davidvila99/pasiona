@@ -1,0 +1,11 @@
+C:\Users\David\Documents\Git repositories\pasiona\Linq queries\Linq queries\bin\Debug\netcoreapp2.1\Linq queries.deps.json
+C:\Users\David\Documents\Git repositories\pasiona\Linq queries\Linq queries\bin\Debug\netcoreapp2.1\Linq queries.runtimeconfig.json
+C:\Users\David\Documents\Git repositories\pasiona\Linq queries\Linq queries\bin\Debug\netcoreapp2.1\Linq queries.runtimeconfig.dev.json
+C:\Users\David\Documents\Git repositories\pasiona\Linq queries\Linq queries\bin\Debug\netcoreapp2.1\Linq queries.dll
+C:\Users\David\Documents\Git repositories\pasiona\Linq queries\Linq queries\bin\Debug\netcoreapp2.1\Linq queries.pdb
+C:\Users\David\Documents\Git repositories\pasiona\Linq queries\Linq queries\obj\Debug\netcoreapp2.1\Linq queries.csprojAssemblyReference.cache
+C:\Users\David\Documents\Git repositories\pasiona\Linq queries\Linq queries\obj\Debug\netcoreapp2.1\Linq queries.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\Git repositories\pasiona\Linq queries\Linq queries\obj\Debug\netcoreapp2.1\Linq queries.AssemblyInfoInputs.cache
+C:\Users\David\Documents\Git repositories\pasiona\Linq queries\Linq queries\obj\Debug\netcoreapp2.1\Linq queries.AssemblyInfo.cs
+C:\Users\David\Documents\Git repositories\pasiona\Linq queries\Linq queries\obj\Debug\netcoreapp2.1\Linq queries.dll
+C:\Users\David\Documents\Git repositories\pasiona\Linq queries\Linq queries\obj\Debug\netcoreapp2.1\Linq queries.pdb

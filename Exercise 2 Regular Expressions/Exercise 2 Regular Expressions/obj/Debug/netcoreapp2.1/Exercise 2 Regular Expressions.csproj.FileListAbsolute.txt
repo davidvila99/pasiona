@@ -1,0 +1,11 @@
+C:\Users\David\Desktop\Pasiona Stuff\Exercise 2 Regular Expressions\Exercise 2 Regular Expressions\obj\Debug\netcoreapp2.1\Exercise 2 Regular Expressions.csprojAssemblyReference.cache
+C:\Users\David\Desktop\Pasiona Stuff\Exercise 2 Regular Expressions\Exercise 2 Regular Expressions\obj\Debug\netcoreapp2.1\Exercise 2 Regular Expressions.csproj.CoreCompileInputs.cache
+C:\Users\David\Desktop\Pasiona Stuff\Exercise 2 Regular Expressions\Exercise 2 Regular Expressions\obj\Debug\netcoreapp2.1\Exercise 2 Regular Expressions.AssemblyInfoInputs.cache
+C:\Users\David\Desktop\Pasiona Stuff\Exercise 2 Regular Expressions\Exercise 2 Regular Expressions\obj\Debug\netcoreapp2.1\Exercise 2 Regular Expressions.AssemblyInfo.cs
+C:\Users\David\Desktop\Pasiona Stuff\Exercise 2 Regular Expressions\Exercise 2 Regular Expressions\bin\Debug\netcoreapp2.1\Exercise 2 Regular Expressions.deps.json
+C:\Users\David\Desktop\Pasiona Stuff\Exercise 2 Regular Expressions\Exercise 2 Regular Expressions\bin\Debug\netcoreapp2.1\Exercise 2 Regular Expressions.runtimeconfig.json
+C:\Users\David\Desktop\Pasiona Stuff\Exercise 2 Regular Expressions\Exercise 2 Regular Expressions\bin\Debug\netcoreapp2.1\Exercise 2 Regular Expressions.runtimeconfig.dev.json
+C:\Users\David\Desktop\Pasiona Stuff\Exercise 2 Regular Expressions\Exercise 2 Regular Expressions\bin\Debug\netcoreapp2.1\Exercise 2 Regular Expressions.dll
+C:\Users\David\Desktop\Pasiona Stuff\Exercise 2 Regular Expressions\Exercise 2 Regular Expressions\bin\Debug\netcoreapp2.1\Exercise 2 Regular Expressions.pdb
+C:\Users\David\Desktop\Pasiona Stuff\Exercise 2 Regular Expressions\Exercise 2 Regular Expressions\obj\Debug\netcoreapp2.1\Exercise 2 Regular Expressions.dll
+C:\Users\David\Desktop\Pasiona Stuff\Exercise 2 Regular Expressions\Exercise 2 Regular Expressions\obj\Debug\netcoreapp2.1\Exercise 2 Regular Expressions.pdb

@@ -1,0 +1,14 @@
+C:\Users\David\source\repos\JuanPabloWeba\JuanPabloWeba\bin\Debug\netcoreapp2.1\JuanPabloWeba.deps.json
+C:\Users\David\source\repos\JuanPabloWeba\JuanPabloWeba\bin\Debug\netcoreapp2.1\JuanPabloWeba.runtimeconfig.json
+C:\Users\David\source\repos\JuanPabloWeba\JuanPabloWeba\bin\Debug\netcoreapp2.1\JuanPabloWeba.runtimeconfig.dev.json
+C:\Users\David\source\repos\JuanPabloWeba\JuanPabloWeba\bin\Debug\netcoreapp2.1\JuanPabloWeba.dll
+C:\Users\David\source\repos\JuanPabloWeba\JuanPabloWeba\bin\Debug\netcoreapp2.1\JuanPabloWeba.pdb
+C:\Users\David\source\repos\JuanPabloWeba\JuanPabloWeba\obj\Debug\netcoreapp2.1\JuanPabloWeba.csprojAssemblyReference.cache
+C:\Users\David\source\repos\JuanPabloWeba\JuanPabloWeba\obj\Debug\netcoreapp2.1\JuanPabloWeba.csproj.CoreCompileInputs.cache
+C:\Users\David\source\repos\JuanPabloWeba\JuanPabloWeba\obj\Debug\netcoreapp2.1\JuanPabloWeba.RazorAssemblyInfo.cache
+C:\Users\David\source\repos\JuanPabloWeba\JuanPabloWeba\obj\Debug\netcoreapp2.1\JuanPabloWeba.RazorAssemblyInfo.cs
+C:\Users\David\source\repos\JuanPabloWeba\JuanPabloWeba\obj\Debug\netcoreapp2.1\JuanPabloWeba.AssemblyInfoInputs.cache
+C:\Users\David\source\repos\JuanPabloWeba\JuanPabloWeba\obj\Debug\netcoreapp2.1\JuanPabloWeba.AssemblyInfo.cs
+C:\Users\David\source\repos\JuanPabloWeba\JuanPabloWeba\obj\Debug\netcoreapp2.1\JuanPabloWeba.RazorTargetAssemblyInfo.cache
+C:\Users\David\source\repos\JuanPabloWeba\JuanPabloWeba\obj\Debug\netcoreapp2.1\JuanPabloWeba.dll
+C:\Users\David\source\repos\JuanPabloWeba\JuanPabloWeba\obj\Debug\netcoreapp2.1\JuanPabloWeba.pdb
