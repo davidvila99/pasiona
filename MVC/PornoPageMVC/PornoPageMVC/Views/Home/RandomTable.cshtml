@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "RandomTable";
+}
+
+    <h2>Table de valores Random:</h2>
+    <br />
+    <table>
+        @for (int i = 0; i < ViewBag.Size; i++)
+        {
+            <tr>
+                @for (int j = 0; j < ViewBag.Size; j++)
+                {
+                    <td>
+                        <p>@ViewBag.Table[i, j]</p>
+                    </td>
+                }
+            </tr>
+        }
+    </table>
+

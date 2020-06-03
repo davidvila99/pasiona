@@ -1,0 +1,65 @@
+﻿@model MVCZoo2.Models.Habitat
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Habitat</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Clima)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Clima)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Vegetacion)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Vegetacion)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Itinerarios)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Itinerarios.Id)
+        </dd>
+    </dl>
+</div>
+<div>
+    <h4>Especies</h4>
+    <hr />
+    @foreach (var c in Model.ViveEns)
+    {
+        <p><a asp-controller="Especies" asp-action="Details" asp-route-id="@c.Id">@c.Especie.NombreCompuesto</a> - @c.Especie.NombreCientifico (@c.Indice)</p>
+    }
+    <hr />
+</div>
+<form asp-action="AddEspecie" asp-route-id="@Model.Id" method="post">
+
+    <div class="form-group">
+        <label class="control-label">Especie:</label>
+        <select name="EspecieId" class="form-control" asp-items="ViewBag.ListaEspecie"></select>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Indice:</label>
+        <input type="text" name="Indice" class="form-control">
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Añadir" class="btn btn-default" />
+    </div>
+</form>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
